@@ -1,12 +1,20 @@
 # Proyecto: Análisis de Ventas de Cafetería (Coffee Shop Sales)
 
-## 📊 Resumen del Proyecto
+## Propósito del proyecto
+Proyecto de práctica de **nivel fundamental**: demostrar que domino el ciclo completo de análisis de datos usando solo Excel, antes de pasar a SQL y Power BI.
+
+**Habilidades que pone en práctica:**
+* Limpieza de datos e ingeniería de características (por ejemplo, un `order_id` único para distinguir artículos de pedidos).
+* Tablas y gráficos dinámicos, segmentadores y diseño de un dashboard interactivo.
+* Power Pivot y medidas DAX básicas (Ticket Promedio).
+
+## Resumen del Proyecto
 
 Este proyecto consiste en un análisis de datos de ventas de una cafetería, realizado íntegramente en **Microsoft Excel**. El objetivo es limpiar y transformar un conjunto de datos transaccionales crudos para, finalmente, construir un **dashboard interactivo** que permita identificar patrones de ventas, rendimiento de productos y tendencias de consumo.
 
 El proyecto demuestra el ciclo completo de análisis de datos: desde la limpieza y transformación (ETL) hasta el análisis (EDA) y la visualización interactiva.
 
-## ❓ Preguntas de Negocio Resueltas
+## Preguntas de Negocio Resueltas
 
 El dashboard interactivo fue diseñado para responder preguntas clave del negocio:
 * ¿Cuáles son las horas pico de ventas y los días de mayor afluencia?
@@ -15,7 +23,7 @@ El dashboard interactivo fue diseñado para responder preguntas clave del negoci
 * ¿Cuál es el ticket promedio por cliente (Average Order Value)?
 * ¿Qué tamaños de productos prefieren los clientes?
 
-## 🛠️ Herramientas y Habilidades Demostradas
+## Herramientas y Habilidades Demostradas
 
 * **Microsoft Excel:**
     * Limpieza y formato de datos.
@@ -28,7 +36,7 @@ El dashboard interactivo fue diseñado para responder preguntas clave del negoci
 * **DAX (Data Analysis Expressions):**
     * Creación de medidas DAX personalizadas, como **`Ticket Promedio`** (`DIVIDE(SUM(Ventas), DISTINCTCOUNT(Pedidos))`).
 
-## 🚀 Metodología del Proyecto
+## Metodología del Proyecto
 
 El proyecto se estructuró en 4 hojas de cálculo principales:
 
@@ -61,14 +69,14 @@ Se creó un dashboard ejecutivo que consolida todos los hallazgos en una sola vi
 
 
 
-## 💡 Hallazgos Clave (Insights)
+## Hallazgos Clave (Insights)
 
 * **Horas Pico:** La mayor afluencia de clientes y volumen de ventas ocurre entre las **8 a.m. y las 10 a.m.**
 * **Rendimiento de Tiendas:** Las tres tiendas (Astoria, Hell's Kitchen, Lower Manhattan) tienen un rendimiento de ingresos notablemente similar, lo que indica un buen equilibrio operativo.
 * **Ticket Promedio (AOV):** Se calculó el gasto promedio por pedido único, una métrica clave que no estaba disponible en los datos crudos (creada con DAX).
 * **Categorías Populares:** El café (`Coffee`) es la categoría de mayor ingreso, seguida de cerca por el té (`Tea`) y los productos de panadería (`Bakery`).
 
-## 📥 Cómo Usar este Proyecto
+## Cómo Usar este Proyecto
 
 1.  Descarga el archivo `.xlsx`.
 2.  Ábrelo en Microsoft Excel (se recomienda una versión que soporte Power Pivot y Modelo de Datos, como Excel 2016 o posterior).
