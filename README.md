@@ -1,5 +1,13 @@
 # Proyecto: Análisis de Ventas de Cafetería (Coffee Shop Sales)
 
+## 🧭 Propósito del proyecto
+Proyecto de práctica de **nivel fundamental**: demostrar que domino el ciclo completo de análisis de datos usando solo Excel, antes de pasar a SQL y Power BI.
+
+**Habilidades que pone en práctica:**
+* Limpieza de datos e ingeniería de características (por ejemplo, un `order_id` único para distinguir artículos de pedidos).
+* Tablas y gráficos dinámicos, segmentadores y diseño de un dashboard interactivo.
+* Power Pivot y medidas DAX básicas (Ticket Promedio).
+
 ## 📊 Resumen del Proyecto
 
 Este proyecto consiste en un análisis de datos de ventas de una cafetería, realizado íntegramente en **Microsoft Excel**. El objetivo es limpiar y transformar un conjunto de datos transaccionales crudos para, finalmente, construir un **dashboard interactivo** que permita identificar patrones de ventas, rendimiento de productos y tendencias de consumo.
